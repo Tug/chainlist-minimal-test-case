@@ -9,7 +9,7 @@ package-mode = false
 [tool.poetry.dependencies]
 python = "^3.11"
 uvicorn = "^0.25.0"
-chainlit = "^1.1.404"
+chainlit = "1.1.402"
 fastapi = {extras = ["all"], version = "^0.110.0"}
 
 [build-system]
