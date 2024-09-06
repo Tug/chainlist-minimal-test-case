@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "chainlit-test"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.25.0"
+chainlit = "^1.1.404"
+fastapi = {extras = ["all"], version = "^0.110.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
